@@ -52,3 +52,4 @@ jobs:
           echo
           echo what about npm
           npm --help
+          exit
