@@ -40,3 +40,4 @@ jobs:
           mvn --version
           echo what about npm?
           npm --version
+          echo
