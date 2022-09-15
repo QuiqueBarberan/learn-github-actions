@@ -12,3 +12,5 @@
           df -h
           echo env command
           env
+          echo where is bash
+          pwd
