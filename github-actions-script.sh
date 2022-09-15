@@ -6,3 +6,9 @@
           mvn --version
           echo what about npm?
           npm --version
+          echo Who am I
+          whoami
+          echo show disks
+          df -h
+          echo env command
+          env
