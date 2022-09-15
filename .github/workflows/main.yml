@@ -34,22 +34,3 @@ jobs:
         run: |
           echo what is in this directory
           ls -a
-          echo
-          echo is Java installed?
-          java --version
-          echo
-          echo Is Git installed?
-          git --version
-          echo
-          echo what about build tools
-          mvn --version
-          #echo
-          #echo what about grandle
-          #grandle --version
-          #echo
-          #echo what about ant
-          #ant --version
-          echo
-          echo what about npm
-          npm --help
-          exit
