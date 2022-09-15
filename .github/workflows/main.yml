@@ -43,12 +43,12 @@ jobs:
           echo
           echo what about build tools
           mvn --version
-          echo
-          echo what about grandle
-          grandle --version
-          echo
-          echo what about ant
-          ant --version
+          #echo
+          #echo what about grandle
+          #grandle --version
+          #echo
+          #echo what about ant
+          #ant --version
           echo
           echo what about npm
           npm --help
