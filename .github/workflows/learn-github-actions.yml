@@ -10,3 +10,7 @@ jobs:
           node-version: '14'
       - run: npm install -g bats
       - run: bats -v
+      - run: |
+          filename=`find . | grep ".md"`
+          echo "nombre de archivo: $filename"
+          cat $filename
