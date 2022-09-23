@@ -1,0 +1,9 @@
+name: Reusing Workflows
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  call-workflow-2-in-local-repo:
+    uses: ./.github/workflows/learn-github-actions.yml
