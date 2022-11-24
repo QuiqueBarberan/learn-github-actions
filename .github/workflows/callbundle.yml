@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v3
       - id: foo
         uses: QuiqueBarberan/bundlename@master
-      - run: echo bundle ${{ steps.foo.outputs.bundle }}
+      - run: echo bundle ${{ steps.foo.outputs.BUNDLE }}
         shell: bash
       - name: Supuesto short_sha
         run: git show -s --format='%h'
