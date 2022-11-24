@@ -16,3 +16,7 @@ jobs:
         shell: bash
       - run: echo bundle ${{ steps.foo.outputs.bundle }}
         shell: bash
+      - name: Supuesto short_sha
+        run: git show -s --format='%h'
+      - name: Supuesto title
+        run: git show -s --format='%s'
