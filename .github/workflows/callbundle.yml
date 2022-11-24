@@ -1,0 +1,18 @@
+name: CallBundle
+run-name: Show bundle variables
+on: [workflow_dispatch]
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    name: Job1
+    steps:
+      - uses: actions/checkout@v3
+      - id: foo
+        uses: QuiqueBarberan/bundlename@master
+      - run: echo short_sha ${{ steps.foo.outputs.short_sha }}
+        shell: bash
+      - run: echo title ${{ steps.foo.outputs.title }}
+        shell: bash
+      - run: echo bundle ${{ steps.foo.outputs.bundle }}
+        shell: bash
