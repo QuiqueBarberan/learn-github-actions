@@ -8,7 +8,7 @@ jobs:
     name: A job to say hello
     steps:
       - uses: actions/checkout@v3
-      - id: bla
+      - id: stepbundle
         uses: QuiqueBarberan/bundlename@master
-      - run: echo ${{ steps.bla.outputs.XXXXXX }}
+      - run: echo ${{ steps.bla.outputs.stepbundle }}
         shell: bash
