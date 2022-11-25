@@ -12,5 +12,5 @@ jobs:
       - run: pwd
       - id: stepbundle
         uses: QuiqueBarberan/bundlename@master
-      - run: echo ${{ steps.bla.outputs.stepbundle }}
+      - run: echo ${{ steps.stepbundle.outputs.BUNDLE }}
         shell: bash
