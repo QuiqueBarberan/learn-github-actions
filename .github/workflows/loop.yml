@@ -14,3 +14,4 @@ jobs:
       - name: Bucle
         id: bucle
         run: echo "${{ env.cntrl_number }}"
+
