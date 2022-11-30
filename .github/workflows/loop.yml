@@ -1,4 +1,5 @@
-name: Model Multipliers
+name: Loop
+run-name: Loop in ${{ github.ref_name }} with ${{ github.event_name }}
 on:
   workflow_dispatch:
     
