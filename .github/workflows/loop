@@ -1,0 +1,15 @@
+name: Model Multipliers
+on:
+  workflow_dispatch:
+    
+env:
+  cntrl_number: 30
+
+jobs:
+  ssql-get:
+    runs-on: ubuntu-latest
+    name: ssql-get
+    steps:
+      - name: Bucle
+        id: bucle
+        run: echo "${{ env.cntrl_number }}"
